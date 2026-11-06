@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#355f45">
+<title>سلامت فود | خوشمزه‌های دوست‌داشتنی</title>
+<meta name="description" content="خرید محصولات سلامت فود؛ کالباس، ناگت، کباب مرغ، فینگر فود و مینی‌ساندویچ">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--green:#355f45;--green2:#527b59;--mint:#e8f1e7;--cream:#fffaf1;--ink:#2f352f;--muted:#758078;--line:#e8e9df;--orange:#ef965d;--peach:#fff0e5;--white:#fff;--shadow:0 12px 35px #304b3210}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:95px}body{margin:0;background:var(--cream);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif}button,input,textarea,select{font:inherit}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:#fffdf7ed;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{display:flex;align-items:center;gap:10px;font-size:21px;font-weight:900;color:var(--green)}.logo{width:45px;height:45px;border-radius:16px;background:linear-gradient(140deg,#ffc27c,#f28b63);display:grid;place-items:center;font-size:25px}.navlinks{display:flex;gap:18px;font-size:13px;font-weight:700;color:#667067}.navlinks a:hover{color:var(--green2)}.cart-shortcut,.btn{border:0;background:var(--green);color:white;padding:11px 16px;border-radius:14px;font-weight:800;cursor:pointer;box-shadow:0 4px 0 #264a34}.cart-shortcut span{background:#fff;color:var(--green);border-radius:20px;padding:1px 7px;margin-right:5px}
+.hero{padding:28px 0 14px}.hero-box{overflow:hidden;border-radius:30px;padding:38px 5%;background:linear-gradient(115deg,#f7ddce,#fff0c9 55%,#e4edda);display:grid;grid-template-columns:1.2fr .8fr;align-items:center;box-shadow:var(--shadow);border:1px solid #f1e3d2}.eyebrow,.tag{display:inline-flex;align-items:center;gap:5px;border-radius:30px;padding:6px 12px;font-size:11px;font-weight:800}.eyebrow{background:#ffffffb8;color:var(--green)}.hero h1{font-size:clamp(29px,5vw,47px);line-height:1.5;margin:12px 0 8px;font-weight:900}.hero p{max-width:560px;color:#665e53;line-height:2.1;margin:0 0 22px;font-size:14px}.hero-art{text-align:center;font-size:clamp(75px,12vw,125px);filter:drop-shadow(0 12px 10px #8b623733)}.hero .btn{display:inline-block;background:#e88755;box-shadow:0 4px 0 #ca7045}
+.section{padding:19px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:18px 0 15px}.section-head h2{font-size:22px;margin:0;font-weight:900}.section-head p{font-size:12px;color:var(--muted);margin:4px 0 0}.tag{background:#fff0c9;color:#86612e;white-space:nowrap}.tools{display:grid;grid-template-columns:1.4fr 1fr;gap:12px;margin:12px 0 17px}.searchbox{position:relative}.searchbox input{width:100%;border:1px solid var(--line);background:white;border-radius:15px;padding:13px 43px 13px 14px;outline:none}.searchbox:before{content:"⌕";position:absolute;right:15px;top:3px;font-size:27px;color:var(--green)}select{width:100%;border:1px solid var(--line);background:#fff;border-radius:15px;padding:13px;color:var(--ink);outline:none}
+.cats{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.cat{background:white;border:1px solid var(--line);border-radius:18px;text-align:center;padding:15px 7px;box-shadow:var(--shadow);font-size:12px;font-weight:800;cursor:pointer}.cat b{display:block;font-size:29px;margin-bottom:5px}.cat:hover,.cat.active{border-color:#9bb69a;background:var(--mint)}
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.product{background:white;border:1px solid var(--line);border-radius:21px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}.product-top{height:112px;display:grid;place-items:center;font-size:52px;background:linear-gradient(130deg,#fff0df,#f0f3e5);position:relative}.product-top .tag{position:absolute;top:12px;right:12px;background:#e9f3e8;color:#356144}.product-info{padding:15px;display:flex;flex-direction:column;gap:9px;flex:1}.product h3{font-size:16px;margin:0}.price{font-weight:900;color:var(--green);font-size:15px}.old-price{display:inline-block;color:#999;font-size:12px;font-weight:600;text-decoration:line-through;margin-left:7px}.current-price{display:inline-block;color:var(--green);font-weight:900}.unit{font-size:11px;color:var(--muted);font-weight:600}.product-actions{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto}.add{background:var(--green);color:white;border:0;border-radius:12px;padding:9px 13px;font-size:12px;font-weight:800;cursor:pointer}.add:disabled{background:#aeb8ae;cursor:not-allowed}.small-note{font-size:11px;color:var(--muted)}
+.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.menu-card{background:white;border:1px solid var(--line);border-radius:20px;padding:17px;box-shadow:var(--shadow)}.menu-card h3{margin:0 0 10px;color:var(--green);font-size:16px}.menu-card ul{margin:0;padding-right:19px;columns:1}.menu-card li{padding:7px 0;color:#5d665f;font-size:13px;line-height:1.8;display:flex;align-items:center;justify-content:space-between;gap:8px;border-bottom:1px solid #f0f0e9}.menu-item-name{flex:1}.menu-add{background:var(--mint);color:var(--green);border:1px solid #cbdcc8;border-radius:9px;padding:6px 9px;font-size:11px;font-weight:800;white-space:nowrap;cursor:pointer}.menu-add:active{transform:scale(.97)}.note{background:#fff4dd;border:1px dashed #e7c47c;border-radius:13px;padding:10px 13px;margin-top:12px;color:#795e30;font-size:12px;font-weight:700}
+.panel{background:white;border:1px solid var(--line);border-radius:23px;padding:20px;box-shadow:var(--shadow)}.cart-layout{display:grid;grid-template-columns:1.4fr .8fr;gap:15px}.cart-items{display:grid;gap:10px}.cart-item{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px solid var(--line);padding:9px 0}.cart-item:last-child{border:0}.cart-name{font-weight:800}.qty{display:flex;align-items:center;gap:8px}.qty button{border:0;background:var(--mint);color:var(--green);width:28px;height:28px;border-radius:9px;font-weight:900;cursor:pointer}.remove{border:0;background:none;color:#b45b4e;cursor:pointer;font-size:12px}.summary{background:#f7f8f2;border-radius:17px;padding:16px;align-self:start}.summary-row{display:flex;justify-content:space-between;gap:8px;margin:9px 0;font-size:13px}.summary-total{border-top:1px solid var(--line);padding-top:13px;font-weight:900;font-size:16px}.checkout{width:100%;margin-top:12px}.empty{text-align:center;color:var(--muted);padding:25px 8px}
+.review-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.review-form{display:grid;gap:10px}.review-form input,.review-form textarea,.review-form select{width:100%;border:1px solid var(--line);border-radius:12px;padding:11px;background:#fff}.review-form textarea{min-height:90px;resize:vertical}.reviews{display:grid;gap:10px}.review{border-bottom:1px solid var(--line);padding:8px 0}.stars{color:#e6a43b;letter-spacing:2px}.review small{color:var(--muted)}
+.about{margin:25px 0 15px;background:linear-gradient(110deg,#e8efd9,#fff1df);border:1px solid #e4e8d4;border-radius:23px;padding:20px;display:flex;align-items:center;gap:14px}.about .emoji{font-size:38px}.about h2{margin:0 0 5px;font-size:18px}.about p{margin:0;color:#6e655c;font-size:13px;line-height:2}.contact{margin:14px 0 35px;background:white;border:1px solid var(--line);border-radius:22px;padding:20px;display:flex;justify-content:space-between;align-items:center;gap:15px;box-shadow:var(--shadow)}.contact h2{font-size:18px;margin:0 0 5px}.contact p{font-size:13px;color:var(--muted);margin:0}.phone{display:inline-block;direction:ltr;background:#eaf1e3;color:#3f653b;padding:12px 17px;border-radius:14px;font-weight:900;white-space:nowrap}
+footer{background:#35583f;color:#fff4e4;padding:24px 0;margin-top:30px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px}.foot strong{font-size:16px}.toast{position:fixed;bottom:18px;left:18px;background:#263f2d;color:#fff;padding:12px 17px;border-radius:13px;box-shadow:var(--shadow);opacity:0;transform:translateY(10px);transition:.2s;z-index:50;pointer-events:none}.toast.show{opacity:1;transform:none}
+@media(max-width:760px){.navlinks{display:none}.hero-box{grid-template-columns:1fr;text-align:center;padding:27px 7%}.hero-art{order:-1;font-size:75px}.hero p{margin-left:auto;margin-right:auto}.cats{grid-template-columns:repeat(2,1fr)}.product-grid{grid-template-columns:repeat(2,1fr)}.menu-grid{grid-template-columns:repeat(2,1fr)}.cart-layout,.review-grid{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}}
+@media(max-width:480px){.product-grid,.menu-grid{grid-template-columns:1fr}.tools{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column}.brand{font-size:19px}.hero h1{font-size:29px}.section-head h2{font-size:20px}}
+
+/* Premium visual refresh */
+:root{--green:#123d32;--green2:#1e6650;--mint:#e2f1e9;--cream:#fbf7ef;--ink:#172b25;--muted:#718078;--line:#e6e9df;--orange:#f08a45;--peach:#fff0e2;--white:#fff;--shadow:0 18px 45px rgba(24,58,44,.10)}
+body{background:radial-gradient(ellipse at 85% 5%,#eaf3e8 0,transparent 26%),var(--cream)}
+header{background:rgba(255,253,247,.9);border-bottom:1px solid #e6e9df;box-shadow:0 8px 28px rgba(20,55,42,.05)}
+.nav{min-height:84px}.brand{font-size:23px;letter-spacing:-.5px}.logo{width:52px;height:52px;border-radius:18px;background:linear-gradient(145deg,#ffbf78,#ef7948);box-shadow:0 8px 18px #e78b5140}.navlinks{gap:22px;font-size:13px}.navlinks a{transition:.2s}.navlinks a:hover{transform:translateY(-2px)}
+.cart-shortcut,.btn{background:linear-gradient(135deg,#174b3b,#24785b);border-radius:15px;box-shadow:0 5px 0 #0d3328,0 10px 20px #164b3520;transition:transform .2s,box-shadow .2s}.cart-shortcut:hover,.btn:hover,.add:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.hero{padding:34px 0 22px}.hero-box{min-height:330px;border-radius:34px;padding:42px 6%;background:linear-gradient(115deg,#123d32 0%,#1b5b45 56%,#2d7654 100%);color:#fff;position:relative;isolation:isolate;box-shadow:0 24px 55px rgba(16,61,45,.2);border:0}.hero-box:before{content:"";position:absolute;z-index:-1;width:360px;height:360px;border:1px solid #ffffff20;border-radius:50%;left:5%;top:-130px;box-shadow:0 0 0 35px #ffffff08,0 0 0 75px #ffffff06}.hero-box:after{content:"";position:absolute;z-index:-1;width:220px;height:220px;border-radius:50%;right:38%;bottom:-150px;background:#f6a45b22;filter:blur(4px)}.eyebrow{background:#ffffff18;color:#ffe1bd;border:1px solid #ffffff30}.hero h1{font-size:clamp(34px,5.2vw,54px);line-height:1.42;letter-spacing:-1px}.hero p{color:#d7e7dd;font-size:15px;line-height:2.2}.hero-art{font-size:clamp(90px,14vw,155px);filter:drop-shadow(0 18px 18px #071f19aa);transform:rotate(-5deg)}.hero .btn{background:linear-gradient(135deg,#ffb76c,#f1844b);box-shadow:0 5px 0 #c96335;color:#2e261d;padding:13px 22px}
+.section{padding:25px 0}.section-head{margin:22px 0 18px}.section-head h2{font-size:25px;letter-spacing:-.4px}.section-head p{font-size:13px}.tag{background:#fff0df;color:#a65b2c;border:1px solid #f7ddc3;padding:7px 13px}
+.cats{gap:14px}.cat{border:1px solid #e7e8df;border-radius:22px;padding:19px 8px;background:linear-gradient(145deg,#fff,#fffdf8);box-shadow:0 9px 22px #244b3510;transition:.22s}.cat b{font-size:35px;filter:drop-shadow(0 4px 3px #00000010)}.cat:hover,.cat.active{transform:translateY(-5px);border-color:#8eb39b;background:linear-gradient(145deg,#e8f4eb,#fff);box-shadow:0 14px 28px #244b351b}
+.tools{gap:14px;margin:17px 0 20px}.searchbox input,select{border:1px solid #e1e6dc;border-radius:16px;padding:15px 45px 15px 15px;box-shadow:0 5px 18px #244b3508;transition:.2s}.searchbox input:focus,select:focus{border-color:#79a68a;box-shadow:0 0 0 4px #dceee2}
+.product-grid{gap:18px}.product{border:1px solid #e8e9e1;border-radius:25px;box-shadow:0 12px 30px rgba(25,60,44,.07);transition:transform .22s,box-shadow .22s;overflow:hidden}.product:hover{transform:translateY(-6px);box-shadow:0 20px 38px rgba(25,60,44,.14)}.product-top{height:145px;font-size:64px;background:radial-gradient(circle at 50% 40%,#fff 0,#fff6e9 48%,#eaf2e7 100%)}.product-top .tag{background:#fff0df;color:#b65e2b;border:1px solid #f5d6b8;box-shadow:0 5px 12px #8a4c2514}.product-info{padding:18px;gap:11px}.product h3{font-size:17px}.price{font-size:16px}.old-price{color:#a2a2a2;font-size:13px}.current-price{color:#176044}.add{background:linear-gradient(135deg,#174b3b,#277858);border-radius:12px;padding:10px 14px;box-shadow:0 3px 0 #0d3328;transition:.2s}
+.menu-grid{gap:17px}.menu-card{border:1px solid #e7e9df;border-radius:24px;padding:20px;background:linear-gradient(155deg,#fff 0,#fffdf8 100%);box-shadow:0 12px 28px #244b350a;transition:.2s}.menu-card:hover{transform:translateY(-3px);box-shadow:0 17px 32px #244b3514}.menu-card h3{font-size:17px;padding-bottom:10px;border-bottom:1px solid #edf0e8}.menu-card li{padding:9px 0}.menu-add{background:#e7f2e9;border-color:#c8dfcd;color:#17543d;padding:7px 11px;transition:.2s}.menu-add:hover{background:#174b3b;color:white}
+.note{background:#fff5e8;border:1px solid #f1dfc8;border-radius:14px;color:#875a32;padding:12px 14px}
+.panel{border:1px solid #e7e9df;border-radius:25px;box-shadow:0 12px 30px #244b350b;padding:23px}.summary{background:linear-gradient(145deg,#edf5eb,#f8f8f0);border:1px solid #e0e9dc}.summary-total{color:#174b3b}.checkout{padding:14px}.cart-item{padding:13px 0}.qty button{width:31px;height:31px;border-radius:10px}.review-form input,.review-form textarea,.review-form select{border:1px solid #e3e8df;border-radius:14px;padding:13px}.review-form input:focus,.review-form textarea:focus{outline:0;border-color:#85aa91;box-shadow:0 0 0 3px #e3f0e6}
+.about{margin:32px 0 18px;border-radius:25px;padding:24px;background:linear-gradient(110deg,#e7f0df,#fff0df);border:1px solid #e6e8d7}.about .emoji{font-size:46px}.about h2{font-size:20px}.contact{border-radius:25px;padding:24px;border:1px solid #e5e9df;box-shadow:0 14px 30px #244b350b}.contact h2{font-size:20px}.phone{background:#e5f1e6;color:#15523b;border:1px solid #cfe2d1;padding:14px 20px;border-radius:15px}footer{background:linear-gradient(110deg,#10382d,#1b5942);padding:29px 0}.foot{font-size:13px}
+@media(max-width:760px){.hero-box{min-height:0;padding:30px 7%;border-radius:27px}.hero-art{font-size:90px}.hero h1{font-size:34px}.section-head h2{font-size:22px}.cats{gap:10px}.cat{border-radius:18px;padding:15px 7px}}
+@media(max-width:480px){.hero{padding-top:20px}.hero-box{padding:26px 6%}.hero-art{font-size:76px}.hero h1{font-size:30px}.product-top{height:125px}.product-grid,.menu-grid{gap:13px}.product{border-radius:21px}.section{padding:17px 0}}
+
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="logo">🍔</span>سلامت فود</a>
+<nav class="navlinks"><a href="#home">خانه</a><a href="#categories">دسته‌بندی‌ها</a><a href="#products">محصولات</a><a href="#cart">سبد خرید</a><a href="#reviews">نظرات</a><a href="#contact">تماس</a></nav>
+<a class="cart-shortcut" href="#cart">🛒 سبد خرید <span id="cartCount">۰</span></a>
+</div></header>
+<main class="wrap">
+<section class="hero" id="home"><div class="hero-box">
+<div><span class="eyebrow">🍟 خوشمزه‌های دوست‌داشتنی اینجاست!</span><h1>سلامت فود؛<br>یه عالمه طعم خوشمزه 😋</h1><p>از محصولات کیلویی و ناگت تا فینگر فودهای مهمونی و مینی‌ساندویچ؛ انتخاب کن، به سبد خریدت اضافه کن و سفارشت رو ثبت کن.</p><a class="btn" href="#products">دیدن محصولات ←</a></div>
+<div class="hero-art">🍔🥪🍟</div>
+</div></section>
+
+<section class="section" id="categories"><div class="section-head"><div><h2>دسته‌بندی‌ها</h2><p>برای پیدا کردن سریع‌تر محصولات</p></div><span class="tag">✨ انتخاب خوشمزه</span></div>
+<div class="cats">
+<button class="cat active" data-filter="all"><b>🍽️</b>همه محصولات</button>
+<button class="cat" data-filter="sausage"><b>🌭</b>سوسیس و کالباس</button>
+<button class="cat" data-filter="chicken"><b>🍗</b>مرغ و ناگت</button>
+<button class="cat" data-filter="finger"><b>🍢</b>فینگر فود</button>
+<button class="cat" data-filter="mini"><b>🥪</b>مینی و سالاد</button>
+</div></section>
+
+<section class="section" id="products"><div class="section-head"><div><h2>🛍️ محصولات سلامت فود</h2><p>قیمت محصولات کیلویی، به ازای هر کیلوگرم است.</p></div><span class="tag">قیمت به تومان</span></div>
+<div class="tools"><div class="searchbox"><input id="search" type="search" placeholder="جست‌وجوی نام محصول..." aria-label="جست‌وجوی محصول"></div><select id="sort" aria-label="مرتب‌سازی"><option value="default">مرتب‌سازی پیش‌فرض</option><option value="low">ارزان‌ترین</option><option value="high">گران‌ترین</option><option value="special">محصولات ویژه</option></select></div>
+<div class="product-grid" id="productGrid"></div>
+<div class="note">قیمت‌های نمایش‌داده‌شده همان قیمت‌های فعلی فایل سایت هستند. برای محصولات بدون قیمت، لطفاً جهت استعلام تماس بگیرید.</div>
+</section>
+
+<section class="section" id="finger"><div class="section-head"><div><h2>🍡 فینگر فود</h2><p>آیتم‌های پذیرایی و دورهمی</p></div><span class="tag">مناسب مهمونی</span></div>
+<div class="menu-grid">
+<div class="menu-card"><h3>🍽️ آیتم‌های فینگر فود</h3><ul id="fingerItems"></ul><div class="note">📌 تمام آیتم‌ها دونه‌ای هستند؛ قیمت هنگام هماهنگی اعلام می‌شود.</div></div>
+<div class="menu-card"><h3>🍲 غذای پرسی کیلویی</h3><ul id="mealItems"></ul><div class="note">📌 قیمت این بخش هنگام ثبت سفارش هماهنگ می‌شود.</div></div>
+<div class="menu-card"><h3>🥪 مینی ساندویچ و سالاد</h3><ul id="sandwichItems"></ul><div class="note">📌 قیمت و جزئیات هنگام ثبت سفارش هماهنگ می‌شود.</div></div>
+</div></section>
+
+<section class="section" id="cart"><div class="section-head"><div><h2>🛒 سبد خرید شما</h2><p>محصولات انتخابی‌ات را بررسی کن و سفارش را با پیامک آماده کن.</p></div><span class="tag">ذخیره خودکار روی همین دستگاه</span></div>
+<div class="cart-layout"><div class="panel"><div id="cartItems" class="cart-items"><div class="empty">سبد خریدت هنوز خالیه. از محصولات بالا چیزی انتخاب کن 😊</div></div></div>
+<div class="summary"><h3 style="margin:0 0 12px">خلاصه سفارش</h3><div class="summary-row"><span>تعداد اقلام</span><strong id="summaryCount">۰</strong></div><div class="summary-row summary-total"><span>جمع محصولات قیمت‌دار</span><strong id="summaryTotal">۰ تومان</strong></div><p class="small-note">هزینه ارسال در این مبلغ محاسبه نشده است و هنگام هماهنگی اعلام می‌شود.</p><button class="btn checkout" id="checkout">ثبت سفارش و باز کردن پیامک</button><p class="small-note">پیامک آماده می‌شود؛ ارسال نهایی را خودت در برنامه پیامک تأیید می‌کنی.</p></div></div>
+</section>
+
+<section class="section" id="reviews"><div class="section-head"><div><h2>⭐ نظر و امتیاز مشتریان</h2><p>می‌توانی بدون ثبت‌نام نظر ثبت کنی.</p></div><span class="tag">امتیاز ۱ تا ۵</span></div>
+<div class="review-grid"><div class="panel"><h3 style="margin-top:0">ثبت نظر</h3><form class="review-form" id="reviewForm"><input id="reviewName" maxlength="35" placeholder="نام نمایشی (اختیاری)"><select id="reviewRating" aria-label="امتیاز"><option value="5">۵ ستاره - عالی</option><option value="4">۴ ستاره - خوب</option><option value="3">۳ ستاره - متوسط</option><option value="2">۲ ستاره</option><option value="1">۱ ستاره</option></select><textarea id="reviewText" maxlength="400" placeholder="نظرت درباره محصولات یا تجربه خریدت..." required></textarea><button class="btn" type="submit">ثبت نظر</button><p class="small-note">در این نسخه آزمایشی، نظرها فقط در همین مرورگر ذخیره می‌شوند و برای نمایش عمومی باید به یک سرویس/پایگاه داده متصل شوند.</p></form></div>
+<div class="panel"><h3 style="margin-top:0">نظرهای ثبت‌شده</h3><div id="reviewsList" class="reviews"><p class="small-note">هنوز نظری ثبت نشده است.</p></div></div></div>
+</section>
+
+<section class="about"><span class="emoji">🌈</span><div><h2>سلامت فود؛ خوشمزه برای لحظه‌های قشنگ</h2><p>برای مهمونی، دورهمی یا یک وعده خوشمزه، از منوی سلامت فود انتخاب کن. برای موجودی و جزئیات سفارش با ما در ارتباط باش.</p></div></section>
+<section class="contact" id="contact"><div><h2>📞 سفارش و ارتباط با سلامت فود</h2><p>برای ثبت سفارش و دریافت اطلاعات بیشتر تماس بگیر.</p></div><a class="phone" href="tel:09005107054">۰۹۰۰۵۱۰۷۰۵۴</a></section>
+</main>
+<footer><div class="wrap foot"><strong>🍔 سلامت فود</strong><span>یه انتخاب خوشمزه برای هر سلیقه 😋</span><span>© تمامی حقوق محفوظ است.</span></div></footer>
+<div class="toast" id="toast" role="status"></div>
+<script>
+const PHONE="09005107054";
+const products=[
+{id:"chicken-salami",name:"کالباس مرغ",price:1200000,oldPrice:1300000,unit:"کیلوگرم",emoji:"🌭",category:"sausage",special:true},
+{id:"turkey-salami",name:"کالباس بوقلمون",price:1600000,unit:"کیلوگرم",emoji:"🦃",category:"sausage",special:false},
+{id:"nugget",name:"ناگت",price:1100000,oldPrice:1230000,unit:"کیلوگرم",emoji:"🍗",category:"chicken",special:true},
+{id:"chicken-kebab",name:"کباب مرغ",price:1200000,oldPrice:1350000,unit:"کیلوگرم",emoji:"🍢",category:"chicken",special:true},
+{id:"sausage",name:"سوسیس",price:1200000,unit:"کیلوگرم",emoji:"🌭",category:"sausage",special:false}
+];
+const menuProducts=[
+...(["الویه","سمبوسه","سمبوسه پیتزایی","ته‌چین مرغ","پیراشکی گوشت","پیراشکی مرغ","بورک گوشت","بورک اسفناج","تست کوکو سبزی","فیله سوخاری","دلمه برگ مو","تست کشک بادمجان","تست ناگت مرغ","مینی پیتزا","سمبوسه گوشت و قارچ","تست فلافل","دلمه بادمجان و فلفل"].map((name,i)=>({id:"finger-"+(i+1),name,unit:"عدد",emoji:"🍡",group:"finger"}))),
+...(["چیکن استراگانف","کیک مرغ","سالاد ماکارانی","کشک بادمجان","سالاد الویه","کیک الویه","کیک کشک بادمجان","ته‌چین مرغ و زرشک","لازانیا"].map((name,i)=>({id:"meal-"+(i+1),name,unit:"پرس",emoji:"🍲",group:"meal"}))),
+...(["مینی برگر با مخلفات","مینی چیز برگر","مینی ساندویچ الویه","مینی ساندویچ فیله","مینی ساندویچ کوکو سبزی","شات سالاد ماکارانی","شات کشک بادمجان","سالاد کلم نفره"].map((name,i)=>({id:"sandwich-"+(i+1),name,unit:"عدد",emoji:"🥪",group:"sandwich"})))
+];
+const allItems=[...products,...menuProducts];
+const fa=n=>Number(n).toLocaleString("fa-IR");
+let cart=JSON.parse(localStorage.getItem("salamatFoodCart")||"{}");
+let activeFilter="all";
+function saveCart(){localStorage.setItem("salamatFoodCart",JSON.stringify(cart));}
+function toast(msg){const t=document.getElementById("toast");t.textContent=msg;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),1900);}
+function renderMenuItems(){
+ const groups={finger:"fingerItems",meal:"mealItems",sandwich:"sandwichItems"};
+ for(const [group,elementId] of Object.entries(groups)){
+  document.getElementById(elementId).innerHTML=menuProducts.filter(p=>p.group===group).map(p=>`<li><span class="menu-item-name">${p.name}</span><button class="menu-add" type="button" onclick="addToCart('${p.id}')">افزودن +</button></li>`).join("");
+ }
+}
+function renderProducts(){
+ const query=document.getElementById("search").value.trim().toLocaleLowerCase("fa-IR");
+ let list=allItems.filter(p=>{
+  const category=p.category || (p.group==="finger"?"finger":p.group==="sandwich"||p.group==="meal"?"mini":"");
+  const matchesFilter=activeFilter==="all"||category===activeFilter;
+  const matchesSearch=!query||p.name.toLocaleLowerCase("fa-IR").includes(query);
+  return matchesFilter&&matchesSearch;
+ });
+ const sort=document.getElementById("sort").value;
+ if(sort==="low")list.sort((a,b)=>(a.price??Infinity)-(b.price??Infinity));
+ if(sort==="high")list.sort((a,b)=>(b.price??-Infinity)-(a.price??-Infinity));
+ if(sort==="special")list.sort((a,b)=>Number(!!b.special)-Number(!!a.special));
+ document.getElementById("productGrid").innerHTML=list.length?list.map(p=>{
+  const hasPrice=typeof p.price==="number";
+  return `<article class="product"><div class="product-top">${p.emoji}${p.special?'<span class="tag">ویژه 🔥</span>':""}</div><div class="product-info"><h3>${p.name}</h3><div class="price">${hasPrice?(p.oldPrice?`<span class="old-price">${fa(p.oldPrice)} تومان</span>`:" ")+`<span class="current-price">${fa(p.price)} تومان</span>`:"استعلام قیمت"} <span class="unit">/ ${p.unit}</span></div><div class="product-actions"><span class="small-note">${p.special?"پیشنهاد ویژه سلامت فود":"محصول سلامت فود"}</span><button class="add" onclick="addToCart('${p.id}')">افزودن به سبد +</button></div></div></article>`;
+ }).join(""):'<div class="empty">محصولی با این جست‌وجو پیدا نشد.</div>';
+}
+function addToCart(id){cart[id]=(cart[id]||0)+1;saveCart();renderCart();toast("به سبد خرید اضافه شد");}
+function changeQty(id,delta){cart[id]=(cart[id]||0)+delta;if(cart[id]<=0)delete cart[id];saveCart();renderCart();}
+function removeItem(id){delete cart[id];saveCart();renderCart();}
+function renderCart(){
+ const entries=allItems.filter(p=>cart[p.id]);
+ const count=entries.reduce((s,p)=>s+cart[p.id],0);
+ const priced=entries.filter(p=>typeof p.price==="number");
+ const total=priced.reduce((s,p)=>s+p.price*cart[p.id],0);
+ const unpricedCount=entries.filter(p=>typeof p.price!=="number").reduce((s,p)=>s+cart[p.id],0);
+ document.getElementById("cartCount").textContent=fa(count);
+ document.getElementById("summaryCount").textContent=fa(count);
+ document.getElementById("summaryTotal").textContent=fa(total)+" تومان";
+ document.getElementById("cartItems").innerHTML=entries.length?entries.map(p=>`<div class="cart-item"><div><div class="cart-name">${p.emoji} ${p.name}</div><div class="small-note">${typeof p.price==="number"?fa(p.price)+" تومان / "+p.unit:"قیمت: استعلام هنگام هماهنگی / "+p.unit}</div></div><div class="qty"><button onclick="changeQty('${p.id}',-1)" aria-label="کم کردن">−</button><strong>${fa(cart[p.id])}</strong><button onclick="changeQty('${p.id}',1)" aria-label="زیاد کردن">+</button></div><strong>${typeof p.price==="number"?fa(p.price*cart[p.id])+" تومان":"استعلام قیمت"}</strong><button class="remove" onclick="removeItem('${p.id}')">حذف</button></div>`).join(""):'<div class="empty">سبد خریدت هنوز خالیه. از محصولات بالا چیزی انتخاب کن 😊</div>';
+ const note=document.querySelector(".summary .small-note");
+ if(note)note.textContent=unpricedCount?`جمع مبلغ فقط برای محصولات قیمت‌دار است؛ قیمت ${fa(unpricedCount)} عدد از آیتم‌های انتخابی هنگام هماهنگی اعلام می‌شود. هزینه ارسال جداگانه محاسبه می‌شود.`:"هزینه ارسال در این مبلغ محاسبه نشده است و هنگام هماهنگی اعلام می‌شود.";
+}
+document.getElementById("checkout").addEventListener("click",()=>{
+ const entries=allItems.filter(p=>cart[p.id]);
+ if(!entries.length){toast("سبد خرید خالی است");return;}
+ const total=entries.filter(p=>typeof p.price==="number").reduce((s,p)=>s+p.price*cart[p.id],0);
+ const lines=entries.map(p=>`- ${p.name}: ${fa(cart[p.id])} ${p.unit}${typeof p.price==="number"?` × ${fa(p.price)} = ${fa(p.price*cart[p.id])} تومان`:" (قیمت نیازمند استعلام)"}`).join("\n");
+ const hasUnpriced=entries.some(p=>typeof p.price!=="number");
+ const body=`سلام، سفارش جدید از سایت سلامت فود:\n${lines}\n${hasUnpriced?"جمع محصولات قیمت‌دار: "+fa(total)+" تومان\nقیمت سایر آیتم‌ها نیازمند هماهنگی است.":"مبلغ کل: "+fa(total)+" تومان"}\nلطفاً برای هماهنگی با من تماس بگیرید.`;
+ window.location.href=`sms:${PHONE}?body=${encodeURIComponent(body)}`;
+});
+document.querySelectorAll(".cat").forEach(btn=>btn.addEventListener("click",()=>{document.querySelectorAll(".cat").forEach(b=>b.classList.remove("active"));btn.classList.add("active");activeFilter=btn.dataset.filter;renderProducts();}));
+document.getElementById("search").addEventListener("input",renderProducts);
+document.getElementById("sort").addEventListener("change",renderProducts);
+function loadReviews(){const reviews=JSON.parse(localStorage.getItem("salamatFoodReviews")||"[]");document.getElementById("reviewsList").innerHTML=reviews.length?reviews.slice().reverse().map(r=>`<div class="review"><strong>${escapeHtml(r.name||"مشتری سلامت فود")}</strong><div class="stars">${"★".repeat(r.rating)}${"☆".repeat(5-r.rating)}</div><p>${escapeHtml(r.text)}</p><small>${new Date(r.date).toLocaleDateString("fa-IR")}</small></div>`).join(""):'<p class="small-note">هنوز نظری ثبت نشده است.</p>';}
+function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+document.getElementById("reviewForm").addEventListener("submit",e=>{e.preventDefault();const text=document.getElementById("reviewText").value.trim();if(!text)return;const reviews=JSON.parse(localStorage.getItem("salamatFoodReviews")||"[]");reviews.push({name:document.getElementById("reviewName").value.trim(),rating:Number(document.getElementById("reviewRating").value),text,date:Date.now()});localStorage.setItem("salamatFoodReviews",JSON.stringify(reviews));e.target.reset();loadReviews();toast("نظر در همین دستگاه ذخیره شد");});
+renderMenuItems();renderProducts();renderCart();loadReviews();
+</script>
+</body>
+</html>
